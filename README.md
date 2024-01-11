@@ -1,0 +1,2 @@
+# Javascripts
+Javascripts Practise Purpose
