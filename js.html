@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScripts Practise</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+            background-repeat: no repeeat;
+        }
+        .java{
+            font-weight: 700;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            font-size: larger;
+        }
+        #btn-primary{
+            color: white;
+            background-color: chartreuse;
+            font-weight: 800;
+            padding: 15px 25px;
+            font-size: 24px ;
+        }
+        #btn-primary:hover{
+            opacity: .5;
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        #outcomejs{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            background-color: rgba(255,0,0,1);
+        }
+    </style>
+</head>
+<body>
+    <div class="java">
+        <h2>Always remember Javascripts is always case sensitive</h2>
+        <h1 id="outcomejs">
+            Here Is my Outcome.!
+        </h1><br>
+
+        <button id="btn-primary" type="button" onclick="document.getElementById('outcomejs').innerHTML= Date()">
+            Click Me To See My Output
+        </button>
+    </div>
+
+    <div>
+        <button onclick="document.getElementById('myImage').src='./image/pic_bulbon.gif'">Turn on the light</button>
+
+      
+        
+        <button onclick="document.getElementById('myImage').src='./image/pic_bulboff.gif'">Turn off the light</button>
+        <img src="./image/pic_bulboff.gif" alt="bulb" id="myImage">
+    </div>
+
+    <br><hr>
+    <button type="button" onclick="myFunction()">Turn </button>
+    <p id="p-twxt">Lorem ipsum dolor sit.</p>
+
+    <button onclick="alert('Hello\nHow are you?')">Try it</button>
+  
+<p id="demo"></p>
+    <script src="app.js"></script>
+</body>
+</html>
