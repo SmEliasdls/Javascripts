@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScripts Practise</title>
+   <link rel="stylesheet" href="style.css">>
+</head>
+<body>
+    <div class="java">
+        <h2>Always remember Javascripts is always case sensitive</h2>
+        <h1 id="outcomejs">
+            Here Is my Outcome.!
+        </h1><br>
+
+        <button id="btn-primary" type="button" onclick="document.getElementById('outcomejs').innerHTML= Date()">
+            Click Me To See My Output
+        </button>
+    </div>
+
+    <div>
+        <button onclick="document.getElementById('myImage').src='./image/pic_bulbon.gif'">Turn on the light</button>
+
+      
+        
+        <button onclick="document.getElementById('myImage').src='./image/pic_bulboff.gif'">Turn off the light</button>
+        <img src="./image/pic_bulboff.gif" alt="bulb" id="myImage">
+    </div>
+
+    <br><hr>
+    <button type="button" onclick="myFunction()">Turn </button>
+    <p id="p-twxt">Lorem ipsum dolor sit.</p>
+
+    <button onclick="alert('Hello\nHow are you?')">Try it</button><hr>
+  <p id="functiond"></p>
+  <p id="functiondd"></p>
+<p id="demo"></p>
+<h4 id="priceDemo"></h4>
+    <script src="app.js"></script>
+</body>
+</html>
